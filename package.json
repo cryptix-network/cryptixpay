@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cryptixjs": "github:cryptix-network/Cryptixjs",
+    "lmdb": "^2.6.9",
+    "modernlog": "^1.0.2"
+  }
+}

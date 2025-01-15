@@ -1,0 +1,26 @@
+{
+  "cryptix": {
+    "nodeAddress": "127.0.0.1:19201",
+    "wallet": {
+      "daemonAddress": "localhost:8082",
+      "password": "password"
+    },
+    "listener": {
+      "requiredConfirmations": "10"
+    }
+  },
+  "payment": {
+    "dataLimit": 32,
+    "expirationTime": 180,
+    "fee": "500000"
+  },
+  "database": {
+    "path": "./storage"
+  },
+  "rpc": {
+    "http": {
+      "enabled": true,
+      "port": 26642
+    }
+  }
+}
